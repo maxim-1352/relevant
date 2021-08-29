@@ -5,16 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { GlobalStyle } from "./GlobalStyle";
 import { Normalize } from "styled-normalize";
-import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <>
       <Normalize />
       <GlobalStyle />
-      <Router>
-        <App />
-      </Router>
+      <App />
     </>
   </React.StrictMode>,
   document.getElementById("root")
